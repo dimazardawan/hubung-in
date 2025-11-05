@@ -1,0 +1,57 @@
+.dashboardHeader {
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.itemCard {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.itemTitle {
+    font-weight: 600;
+    color: var(--primary-blue);
+}
+
+.statusTag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Warna berbeda untuk setiap status */
+.status-open,
+.status-submitted {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.status-in_progress,
+.status-accepted {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.status-rejected,
+.status-canceled {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
